@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE6343B1BA85776004A2A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6343A1BA85776004A2A61 /* AppDelegate.swift */; };
+		BAE6343D1BA85776004A2A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6343C1BA85776004A2A61 /* ViewController.swift */; };
+		BAE634401BA85776004A2A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6343E1BA85776004A2A61 /* Main.storyboard */; };
+		BAE634431BA85776004A2A61 /* CP4a.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAE634411BA85776004A2A61 /* CP4a.xcdatamodeld */; };
+		BAE634451BA85776004A2A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE634441BA85776004A2A61 /* Assets.xcassets */; };
+		BAE634481BA85776004A2A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE634461BA85776004A2A61 /* LaunchScreen.storyboard */; };
+		BAE634531BA85776004A2A61 /* CP4aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE634521BA85776004A2A61 /* CP4aTests.swift */; };
+		BAE6345E1BA85776004A2A61 /* CP4aUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6345D1BA85776004A2A61 /* CP4aUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE6344F1BA85776004A2A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE6342F1BA85776004A2A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE634361BA85776004A2A61;
+			remoteInfo = CP4a;
+		};
+		BAE6345A1BA85776004A2A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE6342F1BA85776004A2A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE634361BA85776004A2A61;
+			remoteInfo = CP4a;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE634371BA85776004A2A61 /* CP4a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CP4a.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE6343A1BA85776004A2A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE6343C1BA85776004A2A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE6343F1BA85776004A2A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE634421BA85776004A2A61 /* CP4a.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CP4a.xcdatamodel; sourceTree = "<group>"; };
+		BAE634441BA85776004A2A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE634471BA85776004A2A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE634491BA85776004A2A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE6344E1BA85776004A2A61 /* CP4aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CP4aTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE634521BA85776004A2A61 /* CP4aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP4aTests.swift; sourceTree = "<group>"; };
+		BAE634541BA85776004A2A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE634591BA85776004A2A61 /* CP4aUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CP4aUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE6345D1BA85776004A2A61 /* CP4aUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP4aUITests.swift; sourceTree = "<group>"; };
+		BAE6345F1BA85776004A2A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE634341BA85776004A2A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6344B1BA85776004A2A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE634561BA85776004A2A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE6342E1BA85776004A2A61 = {
+			isa = PBXGroup;
+			children = (
+				BAE634391BA85776004A2A61 /* CP4a */,
+				BAE634511BA85776004A2A61 /* CP4aTests */,
+				BAE6345C1BA85776004A2A61 /* CP4aUITests */,
+				BAE634381BA85776004A2A61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE634381BA85776004A2A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE634371BA85776004A2A61 /* CP4a.app */,
+				BAE6344E1BA85776004A2A61 /* CP4aTests.xctest */,
+				BAE634591BA85776004A2A61 /* CP4aUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE634391BA85776004A2A61 /* CP4a */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6343A1BA85776004A2A61 /* AppDelegate.swift */,
+				BAE6343C1BA85776004A2A61 /* ViewController.swift */,
+				BAE6343E1BA85776004A2A61 /* Main.storyboard */,
+				BAE634441BA85776004A2A61 /* Assets.xcassets */,
+				BAE634461BA85776004A2A61 /* LaunchScreen.storyboard */,
+				BAE634491BA85776004A2A61 /* Info.plist */,
+				BAE634411BA85776004A2A61 /* CP4a.xcdatamodeld */,
+			);
+			path = CP4a;
+			sourceTree = "<group>";
+		};
+		BAE634511BA85776004A2A61 /* CP4aTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE634521BA85776004A2A61 /* CP4aTests.swift */,
+				BAE634541BA85776004A2A61 /* Info.plist */,
+			);
+			path = CP4aTests;
+			sourceTree = "<group>";
+		};
+		BAE6345C1BA85776004A2A61 /* CP4aUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6345D1BA85776004A2A61 /* CP4aUITests.swift */,
+				BAE6345F1BA85776004A2A61 /* Info.plist */,
+			);
+			path = CP4aUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE634361BA85776004A2A61 /* CP4a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE634621BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4a" */;
+			buildPhases = (
+				BAE634331BA85776004A2A61 /* Sources */,
+				BAE634341BA85776004A2A61 /* Frameworks */,
+				BAE634351BA85776004A2A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CP4a;
+			productName = CP4a;
+			productReference = BAE634371BA85776004A2A61 /* CP4a.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE6344D1BA85776004A2A61 /* CP4aTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE634651BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4aTests" */;
+			buildPhases = (
+				BAE6344A1BA85776004A2A61 /* Sources */,
+				BAE6344B1BA85776004A2A61 /* Frameworks */,
+				BAE6344C1BA85776004A2A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE634501BA85776004A2A61 /* PBXTargetDependency */,
+			);
+			name = CP4aTests;
+			productName = CP4aTests;
+			productReference = BAE6344E1BA85776004A2A61 /* CP4aTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE634581BA85776004A2A61 /* CP4aUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE634681BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4aUITests" */;
+			buildPhases = (
+				BAE634551BA85776004A2A61 /* Sources */,
+				BAE634561BA85776004A2A61 /* Frameworks */,
+				BAE634571BA85776004A2A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE6345B1BA85776004A2A61 /* PBXTargetDependency */,
+			);
+			name = CP4aUITests;
+			productName = CP4aUITests;
+			productReference = BAE634591BA85776004A2A61 /* CP4aUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE6342F1BA85776004A2A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sahil Shah";
+				TargetAttributes = {
+					BAE634361BA85776004A2A61 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C724W5895H;
+					};
+					BAE6344D1BA85776004A2A61 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C724W5895H;
+						TestTargetID = BAE634361BA85776004A2A61;
+					};
+					BAE634581BA85776004A2A61 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C724W5895H;
+						TestTargetID = BAE634361BA85776004A2A61;
+					};
+				};
+			};
+			buildConfigurationList = BAE634321BA85776004A2A61 /* Build configuration list for PBXProject "CP4a" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE6342E1BA85776004A2A61;
+			productRefGroup = BAE634381BA85776004A2A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE634361BA85776004A2A61 /* CP4a */,
+				BAE6344D1BA85776004A2A61 /* CP4aTests */,
+				BAE634581BA85776004A2A61 /* CP4aUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE634351BA85776004A2A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE634481BA85776004A2A61 /* LaunchScreen.storyboard in Resources */,
+				BAE634451BA85776004A2A61 /* Assets.xcassets in Resources */,
+				BAE634401BA85776004A2A61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6344C1BA85776004A2A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE634571BA85776004A2A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE634331BA85776004A2A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6343D1BA85776004A2A61 /* ViewController.swift in Sources */,
+				BAE634431BA85776004A2A61 /* CP4a.xcdatamodeld in Sources */,
+				BAE6343B1BA85776004A2A61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6344A1BA85776004A2A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE634531BA85776004A2A61 /* CP4aTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE634551BA85776004A2A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6345E1BA85776004A2A61 /* CP4aUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE634501BA85776004A2A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE634361BA85776004A2A61 /* CP4a */;
+			targetProxy = BAE6344F1BA85776004A2A61 /* PBXContainerItemProxy */;
+		};
+		BAE6345B1BA85776004A2A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE634361BA85776004A2A61 /* CP4a */;
+			targetProxy = BAE6345A1BA85776004A2A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE6343E1BA85776004A2A61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE6343F1BA85776004A2A61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE634461BA85776004A2A61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE634471BA85776004A2A61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE634601BA85776004A2A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE634611BA85776004A2A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE634631BA85776004A2A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CP4a/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAE634641BA85776004A2A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CP4a/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAE634661BA85776004A2A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CP4aTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4aTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CP4a.app/CP4a";
+			};
+			name = Debug;
+		};
+		BAE634671BA85776004A2A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CP4aTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4aTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CP4a.app/CP4a";
+			};
+			name = Release;
+		};
+		BAE634691BA85776004A2A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CP4aUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4aUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CP4a;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAE6346A1BA85776004A2A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CP4aUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edzy.CP4aUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CP4a;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE634321BA85776004A2A61 /* Build configuration list for PBXProject "CP4a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE634601BA85776004A2A61 /* Debug */,
+				BAE634611BA85776004A2A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE634621BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE634631BA85776004A2A61 /* Debug */,
+				BAE634641BA85776004A2A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAE634651BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4aTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE634661BA85776004A2A61 /* Debug */,
+				BAE634671BA85776004A2A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAE634681BA85776004A2A61 /* Build configuration list for PBXNativeTarget "CP4aUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE634691BA85776004A2A61 /* Debug */,
+				BAE6346A1BA85776004A2A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAE634411BA85776004A2A61 /* CP4a.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAE634421BA85776004A2A61 /* CP4a.xcdatamodel */,
+			);
+			currentVersion = BAE634421BA85776004A2A61 /* CP4a.xcdatamodel */;
+			path = CP4a.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAE6342F1BA85776004A2A61 /* Project object */;
+}
